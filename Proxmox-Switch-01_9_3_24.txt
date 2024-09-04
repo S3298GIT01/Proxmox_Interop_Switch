@@ -1,5 +1,5 @@
 vlan database
-vlan 2-5,11-19,21-29,100,300
+vlan 2-5,11-19,21-29,100,300,4000-4009
 exit                                                  
 no ip routing
 hostname proxmox-switch-01
@@ -82,6 +82,36 @@ interface vlan 100
 interface vlan 300
  name SASE0                                           
  ip address dhcp
+!
+interface vlan 4000
+ name Interop4000 
+!
+interface vlan 4001
+ name Interop4001
+!
+interface vlan 4002
+ name Interop4002
+!
+interface vlan 4003
+ name Interop4003
+!
+interface vlan 4004
+ name Interop4004
+!
+interface vlan 4005
+ name Interop4005
+!
+interface vlan 4006
+ name Interop4006
+!
+interface vlan 4007
+ name Interop4007
+!
+interface vlan 4008
+ name Interop4008
+!
+interface vlan 4009
+ name Interop4009
 !
 interface GigabitEthernet1/0/1
  switchport access vlan 11
