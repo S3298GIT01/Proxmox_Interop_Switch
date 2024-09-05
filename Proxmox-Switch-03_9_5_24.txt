@@ -1,0 +1,147 @@
+vlan database
+vlan 2-5,11-19,21-29,100,300,4000-4009
+exit                                                  
+no ip routing
+hostname proxmox-switch-03
+username root password encrypted 71ece61629a3d3d46ec34011a25e343f607cd8ba privilege 15
+username sailesh password encrypted b2f1715822ddf1a3abc4e6bf2a179478e2e7c458
+ip ssh server
+!
+interface vlan 1
+ name merakiData
+!
+interface vlan 2
+ name merakiVoice
+!
+interface vlan 3
+ name merakiIoT                                       
+!
+interface vlan 4
+ name merakiGuest
+!
+interface vlan 5
+ name merakiDMZ
+!
+interface vlan 11
+ name Interop1
+!
+interface vlan 12
+ name Interop2
+!
+interface vlan 13
+ name Interop3
+!
+interface vlan 14
+ name Interop4
+!
+interface vlan 15
+ name Interop5
+!                                                     
+interface vlan 16
+ name Interop6
+!
+interface vlan 17
+ name Interop7
+!
+interface vlan 18
+ name Interop8
+!
+interface vlan 19
+ name Interop9
+!
+interface vlan 21
+ name Interop11
+!
+interface vlan 22
+ name Interop12
+!
+interface vlan 23
+ name Interop13
+!
+interface vlan 24                                     
+ name Interop14
+!
+interface vlan 25
+ name Interop15
+!
+interface vlan 26
+ name Interop16
+!
+interface vlan 27
+ name Interop17
+!
+interface vlan 28
+ name Interop18
+!
+interface vlan 29
+ name Interop19
+!
+interface vlan 100
+ name "SVL Tool Space"
+!
+interface vlan 300
+ name SASE0                                           
+ ip address dhcp
+!
+interface vlan 4000
+ name Interop4000 
+!
+interface vlan 4001
+ name Interop4001
+!
+interface vlan 4002
+ name Interop4002
+!
+interface vlan 4003
+ name Interop4003
+!
+interface vlan 4004
+ name Interop4004
+!
+interface vlan 4005
+ name Interop4005
+!
+interface vlan 4006
+ name Interop4006
+!
+interface vlan 4007
+ name Interop4007
+!
+interface vlan 4008
+ name Interop4008
+!
+interface vlan 4009
+ name Interop4009
+!
+
+interface GigabitEthernet1
+ switchport access vlan 4001
+!
+interface GigabitEthernet2
+ switchport access vlan 4002
+!
+interface GigabitEthernet3
+ switchport access vlan 4003
+!
+interface GigabitEthernet4
+ switchport access vlan 4004
+!
+interface GigabitEthernet5
+ switchport access vlan 4005
+!
+interface GigabitEthernet6
+ switchport access vlan 4006
+!
+interface GigabitEthernet7
+ switchport access vlan 4007
+!
+interface GigabitEthernet8
+ switchport access vlan 4008
+!
+interface GigabitEthernet9
+ switchport access vlan 4009
+!
+interface GigabitEthernet10
+ switchport mode trunk
+!
+
