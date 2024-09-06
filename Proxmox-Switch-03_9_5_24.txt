@@ -7,9 +7,6 @@ username root password encrypted 71ece61629a3d3d46ec34011a25e343f607cd8ba privil
 username sailesh password encrypted b2f1715822ddf1a3abc4e6bf2a179478e2e7c458
 ip ssh server
 !
-interface vlan 1
- name merakiData
-!
 interface vlan 2
  name merakiVoice
 !
