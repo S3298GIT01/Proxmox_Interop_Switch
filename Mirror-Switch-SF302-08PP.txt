@@ -1,0 +1,47 @@
+#SF302 Port Mirror#
+vlan database
+vlan 10,20
+exit
+interface vlan 10
+name Mirror1
+exit
+interface vlan 20
+name Mirror2
+exit
+interface FE1
+switchport mode access
+switchport access vlan 10
+exit
+interface FE2
+switchport mode access
+switchport access vlan 10
+exit
+interface FE3
+switchport mode access
+switchport access vlan 10
+exit
+interface FE4
+switchport mode access
+switchport access vlan 10
+exit
+interface FE5
+switchport mode access
+switchport access vlan 20
+exit
+interface FE6
+switchport mode access
+switchport access vlan 20
+exit
+interface FE7
+switchport mode access
+switchport access vlan 20
+exit
+interface FE8
+switchport mode access
+switchport access vlan 20
+exit
+interface gigabitethernet1
+port monitor vlan 10
+port monitor vlan 20
+exit
+
