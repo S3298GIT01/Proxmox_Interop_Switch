@@ -44,4 +44,10 @@ interface gigabitethernet1
 port monitor vlan 10
 port monitor vlan 20
 exit
+monitor session 1 source interface fastethernet3
+monitor session 1 source interface fastethernet4
+monitor session 1 source interface fastethernet7
+monitor session 1 source interface fastethernet8
+monitor session 1 destination interface GE1
+exit
 
