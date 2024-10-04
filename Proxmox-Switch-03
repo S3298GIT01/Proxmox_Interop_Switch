@@ -1,3 +1,16 @@
+vlan database
+vlan 4050-4100
+exit                                                  
+no ip routing
+hostname proxmox-switch-03
+username root password encrypted 71ece61629a3d3d46ec34011a25e343f607cd8ba privilege 15
+username sailesh password encrypted b2f1715822ddf1a3abc4e6bf2a179478e2e7c458
+ip ssh server
+!
+interface vlan 1
+ name merakiData
+ ip address 192.168.10.23 255.255.255.0
+!
 interface vlan 4050
  name Interop4050
 !
