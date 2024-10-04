@@ -113,6 +113,39 @@ interface vlan 4008
 interface vlan 4009
  name Interop4009
 !
+interface vlan 4010
+ name Interop4010
+!
+interface vlan 4011
+ name Interop4011
+!
+interface vlan 4012
+ name Interop4012
+!
+interface vlan 4013
+ name Interop4013
+!
+interface vlan 4014
+ name Interop4014
+!
+interface vlan 4015
+ name Interop4015
+!
+interface vlan 4016
+ name Interop4016
+!
+interface vlan 4017
+ name Interop4017
+!
+interface vlan 4018
+ name Interop4018
+!
+interface vlan 4019
+ name Interop4019
+!
+interface vlan 4020
+ name Interop4020
+!
 interface GigabitEthernet1/0/1
  switchport access vlan 11
 !
