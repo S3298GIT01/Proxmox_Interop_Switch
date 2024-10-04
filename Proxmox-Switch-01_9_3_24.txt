@@ -1,5 +1,5 @@
 vlan database
-vlan 2-5,11-19,21-29,100,300,4000-4020
+vlan 2-5,11-19,21-29,100,300,4000-4020,4050-4100
 exit                                                  
 no ip routing
 hostname proxmox-switch-01
