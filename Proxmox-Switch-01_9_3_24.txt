@@ -1,5 +1,5 @@
 vlan database
-vlan 2-5,11-19,21-29,100,300,4000-4020,4050-4100
+vlan 2-5,11-19,21-29,100,300,4000-4020,4050-4094
 exit                                                  
 no ip routing
 hostname proxmox-switch-01
@@ -281,24 +281,6 @@ interface vlan 4093
 !
 interface vlan 4094
  name Interop4094
-!
-interface vlan 4095
- name Interop4095
-!
-interface vlan 4096
- name Interop4096
-!
-interface vlan 4097
- name Interop4097
-!
-interface vlan 4098
- name Interop4098
-!
-interface vlan 4099
- name Interop4099
-!
-interface vlan 4100
- name Interop4100
 !
 interface GigabitEthernet1/0/1
  switchport access vlan 11
