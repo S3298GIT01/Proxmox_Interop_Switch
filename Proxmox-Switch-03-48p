@@ -1,5 +1,5 @@
 vlan database
-vlan 4050-4094
+vlan 4050-4093
 exit                                                  
 no ip routing
 hostname proxmox-switch-03
@@ -143,6 +143,190 @@ interface vlan 4092
 interface vlan 4093
  name Interop4093
 !
-interface vlan 4094
- name Interop4094
+interface fastethernet1
+ switchport mode access
+ switchport access vlan 4051
 !
+interface fastethernet2
+ switchport mode access
+ switchport access vlan 4052
+!
+interface fastethernet3
+ switchport mode access
+ switchport access vlan 4053                          
+!
+interface fastethernet4
+ switchport mode access
+ switchport access vlan 4054
+!
+interface fastethernet5
+ switchport mode access
+ switchport access vlan 4055
+!
+interface fastethernet6
+ switchport mode access
+ switchport access vlan 4056
+!
+interface fastethernet7
+ switchport mode access
+ switchport access vlan 4057
+!
+interface fastethernet8
+ switchport mode access
+ switchport access vlan 4058
+!
+interface fastethernet9                               
+ switchport mode access
+ switchport access vlan 4059
+!
+interface fastethernet10
+ switchport mode access
+ switchport access vlan 4060
+!
+interface fastethernet11
+ switchport mode access
+ switchport access vlan 4061
+!
+interface fastethernet12
+ switchport mode access
+ switchport access vlan 4062
+!
+interface fastethernet13
+ switchport mode access
+ switchport access vlan 4063
+!
+interface fastethernet14
+ switchport mode access
+ switchport access vlan 4064                          
+!
+interface fastethernet15
+ switchport mode access
+ switchport access vlan 4065
+!
+interface fastethernet16
+ switchport mode access
+ switchport access vlan 4066
+!
+interface fastethernet17
+ switchport mode access
+ switchport access vlan 4067
+!
+interface fastethernet18
+ switchport mode access
+ switchport access vlan 4068
+!
+interface fastethernet19
+ switchport mode access
+ switchport access vlan 4069
+!
+interface fastethernet20                              
+ switchport mode access
+ switchport access vlan 4070
+!
+interface fastethernet21
+ switchport mode access
+ switchport access vlan 4071
+!
+interface fastethernet22
+ switchport mode access
+ switchport access vlan 4072
+!
+interface fastethernet23
+ switchport mode access
+ switchport access vlan 4073
+!
+interface fastethernet24
+ switchport mode access
+ switchport access vlan 4074
+!
+interface fastethernet25
+ switchport mode access
+ switchport access vlan 4075                          
+!
+interface fastethernet26
+ switchport mode access
+ switchport access vlan 4076
+!
+interface fastethernet27
+ switchport mode access
+ switchport access vlan 4077
+!
+interface fastethernet28
+ switchport mode access
+ switchport access vlan 4078
+!
+interface fastethernet29
+ switchport mode access
+ switchport access vlan 4079
+!
+interface fastethernet30
+ switchport mode access
+ switchport access vlan 4080
+!
+interface fastethernet31                              
+ switchport mode access
+ switchport access vlan 4081
+!
+interface fastethernet32
+ switchport mode access
+ switchport access vlan 4082
+!
+interface fastethernet33
+ switchport mode access
+ switchport access vlan 4083
+!
+interface fastethernet34
+ switchport mode access
+ switchport access vlan 4084
+!
+interface fastethernet35
+ switchport mode access
+ switchport access vlan 4085
+!
+interface fastethernet36
+ switchport mode access
+ switchport access vlan 4086                          
+!
+interface fastethernet37
+ switchport mode access
+ switchport access vlan 4087
+!
+interface fastethernet38
+ switchport mode access
+ switchport access vlan 4088
+!
+interface fastethernet39
+ switchport mode access
+ switchport access vlan 4089
+!
+interface fastethernet40
+ switchport mode access
+ switchport access vlan 4090
+!
+interface fastethernet41
+ switchport mode access
+ switchport access vlan 4091
+!
+interface fastethernet42                              
+ switchport mode access
+ switchport access vlan 4092
+!
+interface fastethernet43
+ switchport mode access
+ switchport access vlan 4093
+!
+interface fastethernet44
+ switchport mode access
+!
+interface gigabitethernet1
+ spanning-tree link-type point-to-point
+ switchport trunk allowed vlan add 4050-4093
+ macro description switch
+ !next command is internal.
+ macro auto smartport dynamic_type switch
+!
+exit
+banner login ^C
+Hello!
+This is property of Shrey Patel
+^C   
