@@ -152,3 +152,147 @@ interface vlan 3097
 interface vlan 3097
  name Interop3097
 !
+interface GigabitEthernet1
+ switchport access vlan 3051
+!
+interface GigabitEthernet2
+ switchport access vlan 3052
+!
+interface GigabitEthernet3
+ switchport access vlan 3053
+!
+interface GigabitEthernet4
+ switchport access vlan 3054
+!
+interface GigabitEthernet5
+ switchport access vlan 3055
+!
+interface GigabitEthernet6
+ switchport access vlan 3056
+!
+interface GigabitEthernet7
+ switchport access vlan 3057
+!
+interface GigabitEthernet8
+ switchport access vlan 3058
+!
+interface GigabitEthernet9
+ switchport access vlan 3059
+!
+interface GigabitEthernet10
+ switchport access vlan 3060
+!
+interface GigabitEthernet11
+ switchport access vlan 3061
+!
+interface GigabitEthernet12
+ switchport access vlan 3062
+!
+interface GigabitEthernet13
+ switchport access vlan 3063
+!
+interface GigabitEthernet14
+ switchport access vlan 3064
+!
+interface GigabitEthernet15
+ switchport access vlan 3065
+!
+interface GigabitEthernet16
+ switchport access vlan 3066
+!
+interface GigabitEthernet17
+ switchport access vlan 3067
+!
+interface GigabitEthernet18
+ switchport access vlan 3068
+!
+interface GigabitEthernet19
+ switchport access vlan 3069
+!
+interface GigabitEthernet20
+ switchport access vlan 3070
+!
+interface GigabitEthernet21
+ switchport access vlan 3071
+!
+interface GigabitEthernet22
+ switchport access vlan 3072
+!
+interface GigabitEthernet23
+ switchport access vlan 3073
+!
+interface GigabitEthernet24
+ switchport access vlan 3074
+!
+interface GigabitEthernet25
+ switchport access vlan 3075
+!
+interface GigabitEthernet26
+ switchport access vlan 3076
+!
+interface GigabitEthernet27
+ switchport access vlan 3077
+!
+interface GigabitEthernet28
+ switchport access vlan 3078
+!
+interface GigabitEthernet29
+ switchport access vlan 3079
+!
+interface GigabitEthernet30
+ switchport access vlan 3080
+!
+interface GigabitEthernet31
+ switchport access vlan 3081
+!
+interface GigabitEthernet32
+ switchport access vlan 3082
+!
+interface GigabitEthernet33
+ switchport access vlan 3083
+!
+interface GigabitEthernet34
+ switchport access vlan 3084
+!
+interface GigabitEthernet35
+ switchport access vlan 3085
+!
+interface GigabitEthernet36
+ switchport access vlan 3086
+!
+interface GigabitEthernet37
+ switchport access vlan 3087
+!
+interface GigabitEthernet38
+ switchport access vlan 3088
+!
+interface GigabitEthernet39
+ switchport access vlan 3089
+!
+interface GigabitEthernet40
+ switchport access vlan 3090
+!
+interface GigabitEthernet41
+ switchport access vlan 3091
+!
+interface GigabitEthernet42
+ switchport access vlan 3092
+!
+interface GigabitEthernet43
+ switchport access vlan 3093
+!
+interface GigabitEthernet44
+ switchport access vlan 3094
+!
+interface GigabitEthernet45
+ switchport access vlan 3095
+!
+interface GigabitEthernet46
+ switchport access vlan 3096
+!
+interface GigabitEthernet47
+ switchport access vlan 3097
+!
+interface GigabitEthernet48
+ switchport access vlan 3098
+!
