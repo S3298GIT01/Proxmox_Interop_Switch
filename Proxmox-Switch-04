@@ -154,8 +154,8 @@ interface vlan 3096
 interface vlan 3097
  name Interop3097
 !
-interface vlan 3097
- name Interop3097
+interface vlan 3098
+ name Interop3098
 !
 interface GigabitEthernet1
  switchport access vlan 3051
