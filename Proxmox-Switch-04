@@ -1,0 +1,154 @@
+vlan database
+vlan 3050-3098
+exit                                                  
+interface vlan 1
+ name merakiData
+ ip address 192.168.10.25 255.255.255.0
+!
+interface vlan 3050
+ name Interop3050
+!
+interface vlan 3051
+ name Interop3051
+!
+interface vlan 3052
+ name Interop3052
+!
+interface vlan 3053
+ name Interop3053
+!
+interface vlan 3054
+ name Interop3054
+!
+interface vlan 3055
+ name Interop3055
+!
+interface vlan 3056
+ name Interop3056
+!
+interface vlan 3057
+ name Interop3057
+!
+interface vlan 3058
+ name Interop3058
+!
+interface vlan 3059
+ name Interop3059
+!
+interface vlan 3060
+ name Interop3060
+!
+interface vlan 3061
+ name Interop3061
+!
+interface vlan 3062
+ name Interop3062
+!
+interface vlan 3063
+ name Interop3063
+!
+interface vlan 3064
+ name Interop3064
+!
+interface vlan 3065
+ name Interop3065
+!
+interface vlan 3066
+ name Interop3066
+!
+interface vlan 3067
+ name Interop3067
+!
+interface vlan 3068
+ name Interop3068
+!
+interface vlan 3069
+ name Interop3069
+!
+interface vlan 3070
+ name Interop3070
+!
+interface vlan 3071
+ name Interop3071
+!
+interface vlan 3072
+ name Interop3072
+!
+interface vlan 3073
+ name Interop3073
+!
+interface vlan 3074
+ name Interop3074
+!
+interface vlan 3075
+ name Interop3075
+!
+interface vlan 3076
+ name Interop3076
+!
+interface vlan 3077
+ name Interop3077
+!
+interface vlan 3078
+ name Interop3078
+!
+interface vlan 3079
+ name Interop3079
+!
+interface vlan 3080
+ name Interop3080
+!
+interface vlan 3081
+ name Interop3081
+!
+interface vlan 3082
+ name Interop3082
+!
+interface vlan 3083
+ name Interop3083
+!
+interface vlan 3084
+ name Interop3084
+!
+interface vlan 3085
+ name Interop3085
+!
+interface vlan 3086
+ name Interop3086
+!
+interface vlan 3087
+ name Interop3087
+!
+interface vlan 3088
+ name Interop3088
+!
+interface vlan 3089
+ name Interop3089
+!
+interface vlan 3090
+ name Interop3090
+!
+interface vlan 3091
+ name Interop3091
+!
+interface vlan 3092
+ name Interop3092
+!
+interface vlan 3093
+ name Interop3093
+!
+interface vlan 3094
+ name Interop3094
+!
+interface vlan 3095
+ name Interop3095
+!
+interface vlan 3096
+ name Interop3096
+!
+interface vlan 3097
+ name Interop3097
+!
+interface vlan 3097
+ name Interop3097
+!
