@@ -84,6 +84,159 @@ interface vlan 300
  name SASE0                                           
  ip address dhcp
 !
+interface vlan 3100
+ name Interop3100 
+!
+interface vlan 3101
+ name Interop3101
+!
+interface vlan 3102
+ name Interop3102
+!
+interface vlan 3103
+ name Interop3103
+!
+interface vlan 3104
+ name Interop3104
+!
+interface vlan 3105
+ name Interop3105
+!
+interface vlan 3106
+ name Interop3106
+!
+interface vlan 3107
+ name Interop3107
+!
+interface vlan 3108
+ name Interop3108
+!
+interface vlan 3109
+ name Interop3109
+!
+interface vlan 3110
+ name Interop3110
+!
+interface vlan 3111
+ name Interop3111
+!
+interface vlan 3112
+ name Interop3112
+!
+interface vlan 3113
+ name Interop3113
+!
+interface vlan 3114
+ name Interop3114
+!
+interface vlan 3115
+ name Interop3115
+!
+interface vlan 3116
+ name Interop3116
+!
+interface vlan 3117
+ name Interop3117
+!
+interface vlan 3118
+ name Interop3118
+!
+interface vlan 3119
+ name Interop3119
+!
+interface vlan 3120
+ name Interop3120
+!
+interface vlan 3121
+ name Interop3121
+!
+interface vlan 3122
+ name Interop3122
+!
+interface vlan 3123
+ name Interop3123
+!
+interface vlan 3124
+ name Interop3124
+!
+interface vlan 3125
+ name Interop3125
+!
+interface vlan 3126
+ name Interop3126
+!
+interface vlan 3127
+ name Interop3127
+!
+interface vlan 3128
+ name Interop3128
+!
+interface vlan 3129
+ name Interop3129
+!
+interface vlan 3130
+ name Interop3130
+!
+interface vlan 3131
+ name Interop3131
+!
+interface vlan 3132
+ name Interop3132
+!
+interface vlan 3133
+ name Interop3133
+!
+interface vlan 3134
+ name Interop3134
+!
+interface vlan 3135
+ name Interop3135
+!
+interface vlan 3136
+ name Interop3136
+!
+interface vlan 3137
+ name Interop3137
+!
+interface vlan 3138
+ name Interop3138
+!
+interface vlan 3139
+ name Interop3139
+!
+interface vlan 3140
+ name Interop3140
+!
+interface vlan 3141
+ name Interop3141
+!
+interface vlan 3142
+ name Interop3142
+!
+interface vlan 3143
+ name Interop3143
+!
+interface vlan 3144
+ name Interop3144
+!
+interface vlan 3145
+ name Interop3145
+!
+interface vlan 3146
+ name Interop3146
+!
+interface vlan 3147
+ name Interop3147
+!
+interface vlan 3148
+ name Interop3148
+!
+interface vlan 3149
+ name Interop3149
+!
+interface vlan 3150
+ name Interop3150
+!
 interface vlan 4000
  name Interop4000 
 !
